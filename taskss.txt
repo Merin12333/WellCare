@@ -1,0 +1,26 @@
+Inheritance
+Task 1: Vehicle Start Behaviour Demonstration
+Create a program that uses inheritance to show how different vehicle types override the same start() method.
+Task 2: Employee Salary Calculation System
+Implement inheritance and method overriding to calculate salaries for full-time employees and contractors using a common Employee base class.
+Task 3: Book Late Fee Calculation System
+Use inheritance to show different book types overriding the late-fee calculation behaviour based on the number of delayed days.
+Interface and Abstraction
+Task 1: Use an interface to define area and perimeter behaviours for shapes, and implement these behaviours differently in Circle and Rectangle classes.
+Task 2: Create a Device interface with abstract turnOn/turnOff methods, a default status method, and a static manufacturer method.Then implement it in a SmartPhone class that defines device behaviors and demonstrate these methods using an object.
+Task 3: Create an authentication system using abstraction where Admin and Guest classes override the abstract authenticate method to provide different login validation behaviours .The main method checks user input against both types to determine login success.
+Encapsulation
+Task 1: Student Details Encapsulation
+Create a Student class that stores name and marks as private variables, and use getter and setter methods to update and display the student’s information securely.
+Task 2:  Create a Bank Account class with private balance and account number, and use public deposit and withdraw methods to safely modify the balance while preventing direct access.
+Task 3: Car Details Encapsulation
+Create a Car class with private variables like model, year, and speed, and provide getter/setter methods that allow controlled access and ensure the speed cannot be set to a negative value.
+
+Collection
+Task 1: List Merger & Duplicate Remover
+Merge two lists into one and remove duplicates using a Set to get unique sorted values.
+Task 2 : Student List Manager 
+Create a program that takes student names from the user and stores them in a List. After entering the names, ask the user to input a name to search for, and display whether that student exists in the list or not. Hint: Use list.contains(name) to check if the student is present.
+Task 3: Store all library books in a List and store borrowed books in a Set, then check whether a book is available by verifying if it is present in the borrowed set.
+
+
